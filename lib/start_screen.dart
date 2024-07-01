@@ -14,13 +14,6 @@ class StartScreen extends StatelessWidget {
             width: 300,
             color: const Color.fromARGB(150, 255, 255, 255),
           ),
-          // Opacity(
-          //   opacity: 0.5,
-          //   child: Image.asset(
-          //     'assets/images/quiz-logo.png',
-          //     width: 300,
-          //   ),
-          // ),
           const SizedBox(height: 80),
           const Text(
             'Learn flutter the fun way!',
@@ -31,7 +24,9 @@ class StartScreen extends StatelessWidget {
           ),
           const SizedBox(height: 30),
           OutlinedButton.icon(
-            onPressed: () {},
+            onPressed: () {
+              // TODO: Navigate to quizz screen
+            },
             style: OutlinedButton.styleFrom(
               foregroundColor: Colors.white,
             ),
